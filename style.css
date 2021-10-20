@@ -7,42 +7,29 @@
     padding: 1px;
 }
 
+header{
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+
+    color: #333333;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-bottom: 6rem;
+ }
 
 .contenido {
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     justify-content: flex-start;
-
-}
-
-footer{
-    /* position: fixed;
-    bottom: 0; */
     
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;       
-
-    
-    margin-top: 2rem;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 17px;
-    /* identical to box height */
-
-    color: #BDBDBD;
-   
 }
 
-footer a{
-    text-decoration: none;
-    color: #BDBDBD;
-}
 
 
 
@@ -50,9 +37,7 @@ footer a{
     width: 539.22px;
     height: auto;
     margin-left: 70px;
-   /*  padding-top: 2.5rem;
-    padding-left: 4rem; */
-    
+
 
 }
 
@@ -86,6 +71,7 @@ footer a{
     /* gap: 2rem; */
     padding-left: 9rem;
     padding-right: 3rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -132,7 +118,47 @@ footer a{
     color: #333333;
  }
 
- header{
+
+
+ footer{
+    
+/*     position: relative;
+    margin-top: -180px;
+    clear: both;
+ */
+  
+    width: 100%;
+    height: 2.5rem;       
+    margin-top: 4rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #BDBDBD;
+
+    position: relative;
+    bottom: 0;
+    top:auto;
+    left:0px;
+    width:100%;
+   
+}
+
+footer a{
+    text-decoration: none;
+    color: #BDBDBD;
+}
+ 
+
+
+
+ @media screen and (max-width: 768px){
+
+header{
     font-family: 'Inconsolata';
     font-style: normal;
     font-weight: bold;
@@ -143,16 +169,10 @@ footer a{
 
     color: #333333;
     padding-top: 2rem;
-    padding-left: 4rem;
-    padding-bottom: 6rem;
- }
-
-
- 
-
- @media screen and (max-width: 768px){
-
-
+    padding-left: 1rem;
+    
+    
+    }
 
 .contenido {
     display: flex;
@@ -172,21 +192,7 @@ footer a{
     padding-right: 0rem;
 }
 
-    header{
-        font-family: 'Inconsolata';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 25px;
-        letter-spacing: -0.08em;
-        text-transform: uppercase;
     
-        color: #333333;
-        padding-top: 2rem;
-        padding-left: 1rem;
-        
-        
-     }
     
 .imagen{
 
